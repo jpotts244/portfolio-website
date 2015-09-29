@@ -31,7 +31,7 @@ img {
 	padding: 10%;
 }
 
-.foodie-box {
+.foodie-box, .task-box {
 	/*background-image: url("./images/foodie-image.png");*/
 	height: 50%;
 	padding-right: 0px;
@@ -39,15 +39,16 @@ img {
 
 }
 
-.foodie-image {
+.foodie-image, .task-image {
 	height: 100%;
 	width: 100%;
 }
 
+/*---remove---*/
 .task-box {
 	background-color: green;
-	height: 50%;
 }
+
 
 .balance-box {
 	background-color: blanchedalmond;
