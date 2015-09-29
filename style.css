@@ -16,6 +16,11 @@ body {
 	font-size: 20px;
 }
 
+.links {
+	text-align: center;
+	padding: 10%;
+}
+
 .foodie-box {
 	background-color: pink;
 	height: 50%;
