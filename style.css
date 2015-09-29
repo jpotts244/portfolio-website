@@ -31,6 +31,11 @@ body {
 	padding: 10%;
 }
 
+.project-title {
+	text-align: center;
+	
+}
+
 .foodie-box, .task-box, .balance-box  {
 	height: 50%;
 	padding-right: 0px;
