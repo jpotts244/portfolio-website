@@ -31,8 +31,17 @@ body {
 	padding: 10%;
 }
 
+.foodie-button, .task-button, .balance-button {
+	position: relative;
+	left: 30%;
+	top: 40%;
+
+}
+
 .project-title, .project-content {
 	text-align: center;
+	font-size: 25px;
+
 }
 
 .foodie-box, .task-box, .balance-box  {
