@@ -42,20 +42,8 @@ img {
 .foodie-image, .task-image, .balance-image {
 	height: 100%;
 	width: 100%;
-	display: none;
 }
 
-.foodie-box:hover .foodie-image {
-	display: block;
-}
-
-.task-box:hover .task-image {
-	display: block;
-}
-
-.balance-box:hover .balance-image {
-	display: block;
-}
 /*---remove---*/
 .task-box {
 	background-color: green;
