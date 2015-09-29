@@ -31,19 +31,31 @@ img {
 	padding: 10%;
 }
 
-.foodie-box, .task-box {
-	/*background-image: url("./images/foodie-image.png");*/
+.foodie-box, .task-box, .balance-box  {
 	height: 50%;
 	padding-right: 0px;
 	padding-left: 0px;
-
 }
 
-.foodie-image, .task-image {
+
+
+.foodie-image, .task-image, .balance-image {
 	height: 100%;
 	width: 100%;
+	display: none;
 }
 
+.foodie-box:hover .foodie-image {
+	display: block;
+}
+
+.task-box:hover .task-image {
+	display: block;
+}
+
+.balance-box:hover .balance-image {
+	display: block;
+}
 /*---remove---*/
 .task-box {
 	background-color: green;
@@ -52,5 +64,5 @@ img {
 
 .balance-box {
 	background-color: blanchedalmond;
-	height: 50%;
+
 }
