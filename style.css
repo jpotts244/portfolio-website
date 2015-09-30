@@ -82,6 +82,10 @@ body {
 
 }
 
+.project-info {
+	color: white;
+}
+
 .foodie-content:before {
   content: "";
   background: url("./images/foodie-image2.png");
