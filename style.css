@@ -31,7 +31,7 @@ body {
 	padding: 10%;
 }
 
-.foodie-button, .task-button {
+.foodie-button, .task-button, .balance-button {
 	position: relative;
 	left: 30%;
 	top: 40%;
@@ -81,6 +81,7 @@ body {
 	width: 100%;
 	height: 100%;
 	display: block;
+	top: 25%;
 
 }
 
