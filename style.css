@@ -34,7 +34,7 @@ body {
 .show-box-project-title {
 	/*text-align: center;
 	font-size: 25px;*/
-	color: rebeccapurple;
+	color: white;
 }
 
 .foodie-box, .task-box, .balance-box  {
@@ -43,6 +43,24 @@ body {
 	padding-left: 0%;
 
 }
+.foodie-show-box {
+	height: 100%;
+	width: 100%;
+	background-color: purple;
+}
+
+.task-show-box {
+	height: 100%;
+	width: 100%;
+	background-color: blanchedalmond;
+}
+
+.balance-show-box {
+	height: 100%;
+	width: 100%;
+	background-color: green;
+}
+
 
 .foodie-image, .task-image, .balance-image {
 	height: 100%;
