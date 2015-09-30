@@ -6,13 +6,6 @@ body {
 
 }
 
-/*img {
-	height: 100%;
-	width: 100%;
-
-}*/
-
-
 .info-box {
 	background-color: blue;
 	height: 50%;
@@ -31,12 +24,6 @@ body {
 	padding: 10%;
 }
 
-.foodie-button, .task-button, .balance-button {
-	position: relative;
-	left: 30%;
-	top: 40%;
-
-}
 
 .project-title, .project-content {
 	text-align: center;
@@ -45,8 +32,8 @@ body {
 }
 
 .show-box-project-title {
-	text-align: center;
-	font-size: 25px;
+	/*text-align: center;
+	font-size: 25px;*/
 	color: rebeccapurple;
 }
 
@@ -67,21 +54,13 @@ body {
 	height: 100%;
 }
 
-/*.foodie-content {
-
-	background-image: url("./images/foodie-image2.png");
-	background-position: center;
-
-	max-width: 100%;
-	max-height: 100%;
-
-}*/
 .project-text {
 	position: relative;
 	width: 100%;
 	height: 100%;
 	display: block;
 	top: 25%;
+	text-align: center;
 
 }
 
@@ -89,6 +68,11 @@ body {
   content: "";
   background: url("./images/foodie-image2.png");
   opacity: 0.5;
+  filter: blur(3px);
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	-o-filter: blur(3px);
+	-ms-filter: blur(3px);
   top: 0;
   left: 0;
   bottom: 0;
@@ -102,6 +86,11 @@ body {
   background: url("./images/taskapp-image.png");
   background-position: center;
   opacity: 0.5;
+  filter: blur(3px);
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	-o-filter: blur(3px);
+	-ms-filter: blur(3px);
   top: 0;
   left: 0;
   bottom: 0;
@@ -115,6 +104,11 @@ body {
   background: url("./images/balanceapp-image.png");
   background-position: center;
   opacity: 0.5;
+  filter: blur(3px);
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	-o-filter: blur(3px);
+	-ms-filter: blur(3px);
   top: 0;
   left: 0;
   bottom: 0;
