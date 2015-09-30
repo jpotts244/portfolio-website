@@ -11,7 +11,7 @@ i {
 }
 
 i:hover {
-	color: grey;
+	color: #5F9EA0;
 }
 
 .info-box {
@@ -76,7 +76,8 @@ i:hover {
 .foodie-show-box {
 	height: 100%;
 	width: 100%;
-	background-color: #3c3c3b;
+	/*background-color: #3c3c3b;*/
+	background-color: #5F9EA0;
 }
 
 .task-show-box {
