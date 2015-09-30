@@ -7,7 +7,7 @@ body {
 }
 
 .info-box {
-	background-color: blue;
+	background-color: white;
 	height: 50%;
 }
 .name-title {
@@ -25,9 +25,12 @@ body {
 }
 
 
-.project-title, .project-content {
+.project-title {
 	text-align: center;
 	font-size: 25px;
+	letter-spacing: 2px;
+	position: relative;
+	top: 40%;
 
 }
 
