@@ -6,9 +6,21 @@ body {
 
 }
 
+i {
+	color: #170b35;
+}
+
+i:hover {
+	color: grey;
+}
+
 .info-box {
 	background-color: white;
 	height: 50%;
+	/*font-family: 'Cardo', serif;*/
+	/*font-family: 'Old Standard TT', serif;*/
+	/*font-family: 'Tinos', serif;*/
+	font-family: 'Lora', serif;
 }
 .name-title {
 	text-align: center;
@@ -31,7 +43,22 @@ body {
 	letter-spacing: 2px;
 	position: relative;
 	top: 40%;
+	color: white;
+}
 
+.foodie-title {
+	font-family: 'Lora', serif;
+	font-size: 30px;
+}
+
+.task-title {
+	font-size: 30px;
+	font-family: 'Lora', serif;
+}
+
+.balance-title {
+	font-family: 'Georgia';
+	font-size: 30px;
 }
 
 .show-box-project-title {
@@ -49,19 +76,19 @@ body {
 .foodie-show-box {
 	height: 100%;
 	width: 100%;
-	background-color: purple;
+	background-color: #3c3c3b;
 }
 
 .task-show-box {
 	height: 100%;
 	width: 100%;
-	background-color: blanchedalmond;
+	background-color: #232323;
 }
 
 .balance-show-box {
 	height: 100%;
 	width: 100%;
-	background-color: green;
+	background-color: #170b35;
 }
 
 
