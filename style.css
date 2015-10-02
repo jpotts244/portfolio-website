@@ -53,11 +53,12 @@ i:hover {
 
 .task-title {
 	font-size: 30px;
-	font-family: 'Lora', serif;
+	/*font-family: 'Lora', serif;*/
 }
 
 .balance-title {
-	font-family: 'Georgia';
+	/*font-family: 'Georgia';*/
+	font-family: 'Shadows Into Light', cursive;
 	font-size: 30px;
 }
 
