@@ -17,11 +17,6 @@ i:hover {
 .info-box {
 	background-color: white;
 	height: 50%;
-	/*font-family: 'Cardo', serif;*/
-	/*font-family: 'Old Standard TT', serif;*/
-	/*font-family: 'Tinos', serif;*/
-	/*font-family: 'Lora', serif;*/
-	/*font-family: Helvetica;*/
 	font-family: Georgia;
 }
 .name-title {
@@ -103,12 +98,9 @@ i:hover {
 
 .project-text {
 	position: relative;
-	width: 100%;
-	height: 100%;
 	display: block;
-	top: 25%;
+	padding-top: 15%;
 	text-align: center;
-
 }
 
 .project-info {
@@ -116,55 +108,32 @@ i:hover {
 	font-size: 16px;
 }
 
-.foodie-content:before {
-  content: "";
-  background: url("./images/foodie-image2.png");
-  opacity: 0.5;
-  filter: blur(3px);
+.foodie-content:before, .balance-content:before, .task-content:before {
+	content: "";
+	background-size: cover;
+	background-position: center;
+	opacity: 0.5;
+	filter: blur(3px);
 	-webkit-filter: blur(3px);
 	-moz-filter: blur(3px);
 	-o-filter: blur(3px);
 	-ms-filter: blur(3px);
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;   
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;   
+}
+
+.foodie-content:before {
+	background-image: url("./images/foodie-image2.png");
 }
 
 .task-content:before {
-  content: "";
-  background: url("./images/taskapp-image.png");
-  background-position: center;
-  opacity: 0.5;
-  filter: blur(3px);
-	-webkit-filter: blur(3px);
-	-moz-filter: blur(3px);
-	-o-filter: blur(3px);
-	-ms-filter: blur(3px);
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;   
+	background-image: url("./images/taskapp-image.png");
 }
 
 .balance-content:before {
-  content: "";
-  background: url("./images/balanceapp-image.png");
-  background-position: center;
-  opacity: 0.5;
-  filter: blur(3px);
-	-webkit-filter: blur(3px);
-	-moz-filter: blur(3px);
-	-o-filter: blur(3px);
-	-ms-filter: blur(3px);
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;   
+	background-image: url("./images/balanceapp-image.png");
 }
