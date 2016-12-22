@@ -1,139 +1,53 @@
+	html, body {
+		width: 100%;
+		height: 100%;
+		margin: 0px;
+		padding: 0px;	
+	}
 
-body {
-	width: 100%;
-	height: 100%;
-	background-color: black;
+	.container {
+		width: inherit;
+		height: inherit;
+		background-image: url("images/blackbackground-min.jpg");
+		min-width: 1440px;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
 
-}
+	.text-content {
+		position: absolute;
+		bottom: 42%;
+		right: 42%;
+		text-align: center;
+	}
 
-i {
-	color: #170b35;
-}
+	.header {
+		color: white;
+		font-family: 'Amatic SC', cursive;
+		font-size: 20px;
+	}
 
-i:hover {
-	color: #5F9EA0;
-}
+	.fa-github-square, .fa-linkedin, .fa-file-text-o, .fa-envelope-o {
+		color: white;
+		letter-spacing: 8px;
+	}
 
-.info-box {
-	background-color: white;
-	height: 50%;
-	font-family: Georgia;
-}
-.name-title {
-	text-align: center;
-}
+	i {
+		color: white;
+	}
 
-.subtitle {
-	text-align: center;
-	font-size: 20px;
-}
+	i:hover {
+		color: #C0C0C0;
+	}
 
-.links {
-	text-align: center;
-	padding: 10%;
-}
+	@media (max-width: 720px) {
+		.text-content {
+			right: 30%;
+		}
+	}
 
-
-.project-title {
-	text-align: center;
-	font-size: 25px;
-	letter-spacing: 2px;
-	position: relative;
-	top: 40%;
-	color: white;
-}
-
-.foodie-title {
-	font-family: 'Lora', serif;
-	font-size: 30px;
-}
-
-.task-title {
-	font-size: 30px;
-}
-
-.balance-title {
-	font-family: 'Shadows Into Light', cursive;
-	font-size: 30px;
-}
-
-.show-box-project-title {
-	color: white;
-}
-
-.foodie-box, .task-box, .balance-box  {
-	height: 50%;
-	padding-right: 0%;
-	padding-left: 0%;
-
-}
-.foodie-show-box {
-	height: 100%;
-	width: 100%;
-	background-color: #5F9EA0;
-}
-
-.task-show-box {
-	height: 100%;
-	width: 100%;
-	background-color: #232323;
-}
-
-.balance-show-box {
-	height: 100%;
-	width: 100%;
-	background-color: #170b35;
-}
-
-
-.foodie-image, .task-image, .balance-image {
-	height: 100%;
-	width: 100%;
-}
-
-.foodie-content, .task-content, .balance-content {
-	width: 100%;
-	height: 100%;
-}
-
-.project-text {
-	position: relative;
-	display: block;
-	padding-top: 15%;
-	text-align: center;
-}
-
-.project-info {
-	color: white;
-	font-size: 16px;
-}
-
-.foodie-content:before, .balance-content:before, .task-content:before {
-	content: "";
-	background-size: cover;
-	background-position: center;
-	opacity: 0.5;
-	filter: blur(3px);
-	-webkit-filter: blur(3px);
-	-moz-filter: blur(3px);
-	-o-filter: blur(3px);
-	-ms-filter: blur(3px);
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	position: absolute;
-	z-index: -1;   
-}
-
-.foodie-content:before {
-	background-image: url("./images/foodie-image2.png");
-}
-
-.task-content:before {
-	background-image: url("./images/taskapp-image.png");
-}
-
-.balance-content:before {
-	background-image: url("./images/balanceapp-image.png");
-}
+	@media (max-width: 480px) {
+		.text-content {
+			right: 25%;
+		}
+	}
